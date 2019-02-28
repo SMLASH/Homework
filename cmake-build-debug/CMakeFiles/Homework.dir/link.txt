@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Homework.dir/main.c.o CMakeFiles/Homework.dir/stack.c.o CMakeFiles/Homework.dir/test.c.o  -o Homework 
