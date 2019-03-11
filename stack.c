@@ -1,9 +1,7 @@
-//
-// Created by makar on 24.02.19.
-//
+#include <malloc.h>
 
 #include "stack.h"
-#include <malloc.h>
+
 
 typedef struct node{
     char value;
@@ -29,5 +27,5 @@ node *pop_stk(node *stack, char result){
     node *next = stack->next;
     result = stack->value;
     free(stack);
-    return next;
+    return  next;
 }

@@ -1,11 +1,7 @@
-//
-// Created by makar on 28.02.19.
-//
 #include <stdio.h>
 
 
-int main(){
+int test(){
     int a = 2;
-    
 }
 
