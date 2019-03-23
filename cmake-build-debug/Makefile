@@ -123,6 +123,33 @@ Homework/fast:
 	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/build
 .PHONY : Homework/fast
 
+check.o: check.c.o
+
+.PHONY : check.o
+
+# target to build an object file
+check.c.o:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/check.c.o
+.PHONY : check.c.o
+
+check.i: check.c.i
+
+.PHONY : check.i
+
+# target to preprocess a source file
+check.c.i:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/check.c.i
+.PHONY : check.c.i
+
+check.s: check.c.s
+
+.PHONY : check.s
+
+# target to generate assembly for a file
+check.c.s:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/check.c.s
+.PHONY : check.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -149,6 +176,33 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/main.c.s
 .PHONY : main.c.s
+
+pars.o: pars.c.o
+
+.PHONY : pars.o
+
+# target to build an object file
+pars.c.o:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/pars.c.o
+.PHONY : pars.c.o
+
+pars.i: pars.c.i
+
+.PHONY : pars.i
+
+# target to preprocess a source file
+pars.c.i:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/pars.c.i
+.PHONY : pars.c.i
+
+pars.s: pars.c.s
+
+.PHONY : pars.s
+
+# target to generate assembly for a file
+pars.c.s:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/pars.c.s
+.PHONY : pars.c.s
 
 stack.o: stack.c.o
 
@@ -213,9 +267,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Homework"
 	@echo "... edit_cache"
+	@echo "... check.o"
+	@echo "... check.i"
+	@echo "... check.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... pars.o"
+	@echo "... pars.i"
+	@echo "... pars.s"
 	@echo "... stack.o"
 	@echo "... stack.i"
 	@echo "... stack.s"

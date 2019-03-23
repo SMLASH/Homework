@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/makar/CLionProjects/Homework/check.c" "/home/makar/CLionProjects/Homework/cmake-build-debug/CMakeFiles/Homework.dir/check.c.o"
   "/home/makar/CLionProjects/Homework/main.c" "/home/makar/CLionProjects/Homework/cmake-build-debug/CMakeFiles/Homework.dir/main.c.o"
+  "/home/makar/CLionProjects/Homework/pars.c" "/home/makar/CLionProjects/Homework/cmake-build-debug/CMakeFiles/Homework.dir/pars.c.o"
   "/home/makar/CLionProjects/Homework/stack.c" "/home/makar/CLionProjects/Homework/cmake-build-debug/CMakeFiles/Homework.dir/stack.c.o"
   "/home/makar/CLionProjects/Homework/test.c" "/home/makar/CLionProjects/Homework/cmake-build-debug/CMakeFiles/Homework.dir/test.c.o"
   )

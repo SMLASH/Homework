@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Homework.dir/main.c.o"
   "CMakeFiles/Homework.dir/stack.c.o"
   "CMakeFiles/Homework.dir/test.c.o"
+  "CMakeFiles/Homework.dir/check.c.o"
+  "CMakeFiles/Homework.dir/pars.c.o"
   "Homework.pdb"
   "Homework"
 )

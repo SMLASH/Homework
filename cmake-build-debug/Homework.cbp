@@ -80,7 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/makar/CLionProjects/Homework/check.c">
+			<Option target="Homework"/>
+		</Unit>
+		<Unit filename="/home/makar/CLionProjects/Homework/check.h">
+			<Option target="Homework"/>
+		</Unit>
 		<Unit filename="/home/makar/CLionProjects/Homework/main.c">
+			<Option target="Homework"/>
+		</Unit>
+		<Unit filename="/home/makar/CLionProjects/Homework/pars.c">
+			<Option target="Homework"/>
+		</Unit>
+		<Unit filename="/home/makar/CLionProjects/Homework/pars.h">
 			<Option target="Homework"/>
 		</Unit>
 		<Unit filename="/home/makar/CLionProjects/Homework/stack.c">
