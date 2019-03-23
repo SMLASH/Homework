@@ -7,4 +7,4 @@ include_directories(.)
 
 add_executable(Homework main.c
         stack.c
-        stack.h test.c check.c check.h pars.c pars.h)
+        stack.h check.c check.h pars.c pars.h tests.c tests.h)

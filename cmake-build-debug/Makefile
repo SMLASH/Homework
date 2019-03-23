@@ -231,32 +231,32 @@ stack.c.s:
 	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/stack.c.s
 .PHONY : stack.c.s
 
-test.o: test.c.o
+tests.o: tests.c.o
 
-.PHONY : test.o
+.PHONY : tests.o
 
 # target to build an object file
-test.c.o:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/test.c.o
-.PHONY : test.c.o
+tests.c.o:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/tests.c.o
+.PHONY : tests.c.o
 
-test.i: test.c.i
+tests.i: tests.c.i
 
-.PHONY : test.i
+.PHONY : tests.i
 
 # target to preprocess a source file
-test.c.i:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/test.c.i
-.PHONY : test.c.i
+tests.c.i:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/tests.c.i
+.PHONY : tests.c.i
 
-test.s: test.c.s
+tests.s: tests.c.s
 
-.PHONY : test.s
+.PHONY : tests.s
 
 # target to generate assembly for a file
-test.c.s:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/test.c.s
-.PHONY : test.c.s
+tests.c.s:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/tests.c.s
+.PHONY : tests.c.s
 
 # Help Target
 help:
@@ -279,9 +279,9 @@ help:
 	@echo "... stack.o"
 	@echo "... stack.i"
 	@echo "... stack.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... tests.o"
+	@echo "... tests.i"
+	@echo "... tests.s"
 .PHONY : help
 
 

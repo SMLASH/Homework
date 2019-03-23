@@ -1,7 +1,7 @@
 
 #include "check.h"
 
-void string_check(node *stack) {
+int string_check(node *stack) {
     char symbol;
     pop_stk(stack, symbol);
     if (symbol == ')' || '}' || ']') {
@@ -15,10 +15,11 @@ void string_check(node *stack) {
             string_check(stack);
         } else if (symbol == '\0') {
             printf("Balanced");
+            return 0;
         }
         else{
             printf("Not balanced");
-
+            return 1;
         }
     }
 }

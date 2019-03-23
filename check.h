@@ -4,4 +4,4 @@
 
 #include "stack.h"
 
-void string_check(node *stack);
+int string_check(node *stack);

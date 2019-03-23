@@ -4,11 +4,10 @@
 #include "stack.h"
 #include "check.h"
 #include "pars.h"
+#include "tests.h"
 
 
 
 int main() {
-    char *string = "([{()}])";
-    node *stack = pars(string);
-    string_check(stack);
+    run_tests();
 }

@@ -83,22 +83,9 @@ CMakeFiles/Homework.dir/stack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Homework.dir/stack.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/makar/CLionProjects/Homework/stack.c -o CMakeFiles/Homework.dir/stack.c.s
 
-CMakeFiles/Homework.dir/test.c.o: CMakeFiles/Homework.dir/flags.make
-CMakeFiles/Homework.dir/test.c.o: ../test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makar/CLionProjects/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Homework.dir/test.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Homework.dir/test.c.o   -c /home/makar/CLionProjects/Homework/test.c
-
-CMakeFiles/Homework.dir/test.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Homework.dir/test.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/makar/CLionProjects/Homework/test.c > CMakeFiles/Homework.dir/test.c.i
-
-CMakeFiles/Homework.dir/test.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Homework.dir/test.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/makar/CLionProjects/Homework/test.c -o CMakeFiles/Homework.dir/test.c.s
-
 CMakeFiles/Homework.dir/check.c.o: CMakeFiles/Homework.dir/flags.make
 CMakeFiles/Homework.dir/check.c.o: ../check.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makar/CLionProjects/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Homework.dir/check.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makar/CLionProjects/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Homework.dir/check.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Homework.dir/check.c.o   -c /home/makar/CLionProjects/Homework/check.c
 
 CMakeFiles/Homework.dir/check.c.i: cmake_force
@@ -111,7 +98,7 @@ CMakeFiles/Homework.dir/check.c.s: cmake_force
 
 CMakeFiles/Homework.dir/pars.c.o: CMakeFiles/Homework.dir/flags.make
 CMakeFiles/Homework.dir/pars.c.o: ../pars.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makar/CLionProjects/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Homework.dir/pars.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makar/CLionProjects/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Homework.dir/pars.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Homework.dir/pars.c.o   -c /home/makar/CLionProjects/Homework/pars.c
 
 CMakeFiles/Homework.dir/pars.c.i: cmake_force
@@ -122,22 +109,35 @@ CMakeFiles/Homework.dir/pars.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Homework.dir/pars.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/makar/CLionProjects/Homework/pars.c -o CMakeFiles/Homework.dir/pars.c.s
 
+CMakeFiles/Homework.dir/tests.c.o: CMakeFiles/Homework.dir/flags.make
+CMakeFiles/Homework.dir/tests.c.o: ../tests.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makar/CLionProjects/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Homework.dir/tests.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Homework.dir/tests.c.o   -c /home/makar/CLionProjects/Homework/tests.c
+
+CMakeFiles/Homework.dir/tests.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Homework.dir/tests.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/makar/CLionProjects/Homework/tests.c > CMakeFiles/Homework.dir/tests.c.i
+
+CMakeFiles/Homework.dir/tests.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Homework.dir/tests.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/makar/CLionProjects/Homework/tests.c -o CMakeFiles/Homework.dir/tests.c.s
+
 # Object files for target Homework
 Homework_OBJECTS = \
 "CMakeFiles/Homework.dir/main.c.o" \
 "CMakeFiles/Homework.dir/stack.c.o" \
-"CMakeFiles/Homework.dir/test.c.o" \
 "CMakeFiles/Homework.dir/check.c.o" \
-"CMakeFiles/Homework.dir/pars.c.o"
+"CMakeFiles/Homework.dir/pars.c.o" \
+"CMakeFiles/Homework.dir/tests.c.o"
 
 # External object files for target Homework
 Homework_EXTERNAL_OBJECTS =
 
 Homework: CMakeFiles/Homework.dir/main.c.o
 Homework: CMakeFiles/Homework.dir/stack.c.o
-Homework: CMakeFiles/Homework.dir/test.c.o
 Homework: CMakeFiles/Homework.dir/check.c.o
 Homework: CMakeFiles/Homework.dir/pars.c.o
+Homework: CMakeFiles/Homework.dir/tests.c.o
 Homework: CMakeFiles/Homework.dir/build.make
 Homework: CMakeFiles/Homework.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/makar/CLionProjects/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable Homework"

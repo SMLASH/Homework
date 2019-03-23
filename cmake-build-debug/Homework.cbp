@@ -101,7 +101,10 @@
 		<Unit filename="/home/makar/CLionProjects/Homework/stack.h">
 			<Option target="Homework"/>
 		</Unit>
-		<Unit filename="/home/makar/CLionProjects/Homework/test.c">
+		<Unit filename="/home/makar/CLionProjects/Homework/tests.c">
+			<Option target="Homework"/>
+		</Unit>
+		<Unit filename="/home/makar/CLionProjects/Homework/tests.h">
 			<Option target="Homework"/>
 		</Unit>
 		<Unit filename="/home/makar/CLionProjects/Homework/CMakeLists.txt">
